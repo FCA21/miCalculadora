@@ -1,0 +1,87 @@
+body{
+    background-color: lightblue;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.calc{
+    text-align: center;
+    margin: auto;
+    background-color: black;
+    border: 2px solid whitesmoke;
+    width: 24%;
+    height: 630px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 40px;
+}
+.maininput{
+    background-color: black;
+    border: 1px solid grey;
+    height: 125px;
+    width: 98.2%;
+    font-size: 80px;
+    color: whitesmoke;
+    font-weight: 00;
+}
+.numbtn{
+    margin: 1px;
+    padding: 30px 35px;
+    border-radius: 50px;
+    font-weight: 500;
+    font-size: 30px;
+    background-color: rgb(81, 149, 180);
+}
+.numbtn:hover{
+    background-color: rgb(33, 33, 255);
+    color: whitesmoke;
+}
+.calbtn{
+    margin: 1px;
+    padding: 30px 35px;
+    border-radius: 50px;
+    font-weight: 500;
+    font-size: 30px;
+    background-color: rgb(221, 219, 94);
+}
+.calbtn:hover{
+    background-color: rgb(251, 255, 0);
+    color: black;
+}
+.c{
+    padding: 30px 35px;
+    border-radius: 50px;
+    font-weight: 500;
+    font-size: 30px;
+    background-color: red;
+}
+.c:hover{
+    background-color: rgb(188, 16, 16);
+    color: whitesmoke;
+}
+.equal{
+    padding: 30px 35px;
+    border-radius: 50px;
+    font-weight: 500;
+    font-size: 30px;
+    background-color: rgb(8, 181, 8);
+}
+.equal:hover{
+    background-color: green;
+    color: whitesmoke;
+}
+
+@media screen and (max-width: 600px) {
+    .calculator {
+        width: 90%;
+    }
+
+    .display {
+        font-size: 18px;
+    }
+
+    button {
+        padding: 15px;
+        font-size: 16px;
+    }
+}
+
